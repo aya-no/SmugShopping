@@ -9,7 +9,7 @@ import "./styles/modal.css";
 export function App() {
   const [state, setState] = useState("regist");
   const [modalVisible, setModalVisible] = useState(false);
-  const URL = "https://smugshoppingapi.onrender.com/";
+  const URL = "https://smugshoppingapi.onrender.com";
   // const URL = "http://localhost:8080";
   return (
     <div className="App">
